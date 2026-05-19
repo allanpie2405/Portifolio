@@ -11,7 +11,7 @@
     justify-content: center;
     height: 100vh;
     background-color: var(--secondary-color);
-    padding-left:10px ;
+    padding:0 10px ;
     max-width: 50%;
 }
 
@@ -21,10 +21,18 @@ h1{
     font-weight: 300;
     color: var(--quaternary-color);
     text-align: center;
+    margin-bottom: 2rem;
 }
 span{
     
     font-weight: bold;
+}
+
+#p_home{
+    font-size: 1.2rem;
+    font-family: "Inria Serif", serif;
+    color: white;    
+    text-align: center;
 }
 
 .side-img{
@@ -39,4 +47,33 @@ span{
     width: 500px;
     max-width: 100%;
     height: auto;
+}
+
+nav ul{
+    display: flex;
+    gap: 15px;
+    margin-top: 10rem;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--quaternary-color);
+    background-color: var(--primary-color);
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-family: "Inria Serif", serif;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+nav a:hover{
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    transform: translateY(-3px);
 }
