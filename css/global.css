@@ -1,10 +1,4 @@
-:root {
-    --primary-color: #4B2E2B;
-    --secondary-color: #8C5A3C;
-    --tertiary-color: #C08552;
-    --quaternary-color: #FFF8F0;
-    
-}
+
 section{
     height: 100vh;
     width: 100%;

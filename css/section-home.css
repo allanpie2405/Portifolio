@@ -1,0 +1,42 @@
+#home-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.side-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--secondary-color);
+    padding-left:10px ;
+    max-width: 50%;
+}
+
+h1{
+    font-size: 2rem;
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    color: var(--quaternary-color);
+    text-align: center;
+}
+span{
+    
+    font-weight: bold;
+}
+
+.side-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+#profile-img{
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+}
