@@ -1,0 +1,66 @@
+/* ===== PROJECT SECTION ===== */
+
+#project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--tertiary-color);
+    padding: 4rem 2rem;
+    height: 100vh;
+}
+
+#project-section h2 {
+    font-family: "Inria Serif", serif;
+    font-size: 2.4rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    background-color: var(--quaternary-color);
+    border-radius: 12px;
+    padding: 1rem;
+    width: 220px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.project-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #d9d9d9;
+}
+
+.project-card h3 {
+    font-family: "Inria Serif", serif;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.project-card p {
+    font-family: "Inria Serif", serif;
+    font-size: 0.95rem;
+    color: var(--secondary-color);
+    text-align: center;
+}
