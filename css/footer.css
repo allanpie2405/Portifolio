@@ -1,0 +1,34 @@
+/* ===== FOOTER / CONTACT SECTION ===== */
+
+#contact-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: var(--primary-color);
+    padding: 2rem 3rem;
+    height: auto;
+    min-height: 80px;
+    gap: 1.25rem;
+}
+
+#contact-section h4 {
+    display: none;
+}
+
+#contact-section a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+#contact-section a:hover {
+    transform: translateY(-4px);
+    opacity: 0.8;
+}
+
+#contact-section a img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
