@@ -1,35 +1,38 @@
 @import url(global.css);
 @import url(section-home.css);
 @import url(section-about.css);
+@import url(section-skills.css);
+@import url(section-project.css);
+@import url(section-footer.css);
+ 
 :root {
     --primary-color: #4B2E2B;
     --secondary-color: #8C5A3C;
     --tertiary-color: #C08552;
     --quaternary-color: #FFF8F0;
-    
 }
+ 
 @font-face {
     font-family: 'Inria Serif';
     src: url(/Fonts/InriaSerif-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
-
+ 
 @font-face {
     font-family: 'Inria Serif';
     src: url(/Fonts/InriaSerif-Bold.ttf);
     font-weight: bold;
     font-style: normal;
 }
-
+ 
 @font-face {
     font-family: 'Inria Serif';
     src: url(/Fonts/InriaSerif-Light.ttf);
     font-weight: 300;
     font-style: normal;
 }
-
-body{
+ 
+body {
     font-family: 'Inria Serif', serif;
 }
-
