@@ -16,7 +16,7 @@
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: "Inria Serif", serif;
     font-weight: 300;
     color: var(--quaternary-color);
@@ -28,9 +28,10 @@ span{
     font-weight: bold;
 }
 
-#p_home{
+#home-p{
     font-size: 1.2rem;
     font-family: "Inria Serif", serif;
+
     color: white;    
     text-align: center;
 }
@@ -52,7 +53,7 @@ span{
 nav ul{
     display: flex;
     gap: 15px;
-    margin-top: 10rem;
+    margin-top: 5rem;
     list-style: none;
     justify-content: center;
     flex-wrap: wrap;
