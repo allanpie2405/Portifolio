@@ -1,6 +1,6 @@
 @import url(global.css);
 @import url(section-home.css);
-
+@import url(section-about.css);
 :root {
     --primary-color: #4B2E2B;
     --secondary-color: #8C5A3C;

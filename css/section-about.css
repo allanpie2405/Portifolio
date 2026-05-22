@@ -1,0 +1,14 @@
+#about-h2{
+    padding: 3.8125rem 0;
+    text-align: center;
+    font-size: 2.4rem;
+    color: var(--primary-color);
+}
+#about-section{
+    background-color: var(--tertiary-color);
+}
+#about-p{
+    color: white;
+    font-size: 1.75rem;
+    margin: 0 5.6875rem;
+}
