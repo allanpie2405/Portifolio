@@ -64,3 +64,9 @@
     color: var(--secondary-color);
     text-align: center;
 }
+#project-grid{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
